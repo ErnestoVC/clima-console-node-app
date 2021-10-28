@@ -1,0 +1,18 @@
+{
+  "name": "05-clima-node-app",
+  "version": "1.0.0",
+  "description": "Una aplicación en NODE que utiliza AXIOS para obtener la latitud y longitud de una ciudad que busquemos, y luego nos brinda información básica de su clima actual",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Ernesto Vences",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.2.0"
+  }
+}
